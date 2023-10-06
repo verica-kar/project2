@@ -130,3 +130,7 @@ ul li {
   border-radius: 15px;
   background-color: red;
 }
+
+#resume h1 {
+  align-self: center;
+}
