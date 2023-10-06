@@ -67,11 +67,38 @@ p {
   text-decoration-color: #fff;
 }
 
+#other-nav {
+  background-color: #000;
+  overflow: hidden;
+}
+ 
+#other-nav #nav-cont {
+  float: right;
+  width: 33%;
+  position: relative;
+}
+
+#other-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: right;
+}
+
+#logo2 {
+  float: left;
+}
+
+#logo-cont {
+  width: 100%;
+  align-items: center;
+}
+
 #logo {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
+  width: 30%;
 }
 
 #about-me {
