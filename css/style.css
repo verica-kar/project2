@@ -1,33 +1,33 @@
 body {
-  background-color: black;
+  background-color: #000;
 }
 
 h1 {
-  color: white;
+  color: #fff;
 }
 
 h2 {
-  color: white;
+  color: #fff;
 }
 
 h3 {
-  color: white;
+  color: #fff;
 }
 
 h4 {
-  color: white;
+  color: #fff;
 }
 
 h5 {
-  color: white;
+  color: #fff;
 }
 
 p {
-  color: white;
+  color: #fff;
 }
 
 #main-nav {
-  background-color: black;
+  background-color: #000;
   overflow: hidden;
 }
 
@@ -47,7 +47,7 @@ p {
 }
 
 #main-nav ul li {
-  font-size: 10px;
+  font-size: 30 px;
   float: left;
   position: relative;
   right: 50%;
@@ -63,10 +63,21 @@ p {
 }
 
 #main-nav ul li a:hover {
-  background-color: lavender;
+  text-decoration: underline;
+  text-decoration-color: #fff;
 }
 
 #logo {
-  align-self: center;
+  align-content: center;
   size: 25%;
+}
+
+#about-me {
+  float: right;
+  margin: 10px 0 10px 20px;
+}
+
+#personalPhoto {
+  size: 50%;
+  float: left;
 }
