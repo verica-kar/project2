@@ -1,0 +1,38 @@
+#main-nav {
+  background-color: black;
+  overflow: hidden;
+}
+
+#nav-cont {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#main-nav ul li {
+  font-size: 10px;
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+
+#main-nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#main-nav ul li a:hover {
+  background-color: lavender;
+}
