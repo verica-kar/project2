@@ -95,19 +95,14 @@ p {
 }
 
 #logo2 {
-  height: 100%;
+  height: fit-content;
   float: left;
-}
-
-#logo-cont {
-  width: 100%;
-  align-items: center;
 }
 
 #logo {
   display: block;
   width: 30%;
-  align-self: center;
+  text-align: center;
 }
 
 #about-me {
@@ -133,5 +128,5 @@ ul li {
 }
 
 #resume h1 {
-  align-self: center;
+  text-align: center;
 }
