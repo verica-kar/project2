@@ -68,8 +68,10 @@ p {
 }
 
 #logo {
-  align-content: center;
-  size: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
 
 #about-me {
@@ -80,4 +82,8 @@ p {
 #personalPhoto {
   size: 50%;
   float: left;
+}
+
+ul li {
+  color: #fff;
 }
