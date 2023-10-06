@@ -99,6 +99,7 @@ p {
 #logo {
   display: block;
   width: 30%;
+  align-self: center;
 }
 
 #about-me {
@@ -113,4 +114,10 @@ p {
 
 ul li {
   color: #fff;
+}
+
+#resume {
+  width: 75%;
+  border-radius: 15px;
+  background-color: red;
 }
