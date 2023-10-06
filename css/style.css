@@ -52,6 +52,7 @@ p {
   position: relative;
   right: 50%;
   display: block;
+  color: #fff;
 }
 
 #main-nav ul li a {
