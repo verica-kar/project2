@@ -1,3 +1,31 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
 #main-nav {
   background-color: black;
   overflow: hidden;
@@ -35,4 +63,9 @@
 
 #main-nav ul li a:hover {
   background-color: lavender;
+}
+
+#logo {
+  align-self: center;
+  size: 25%;
 }
