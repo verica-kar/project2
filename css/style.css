@@ -11,7 +11,8 @@ h1 {
 h2 {
   color: #fff;
   font-family: "Andalé Mono", monospace;
-  font-size: 20px;
+  font-size: 25px;
+  text-align: center;
 }
 
 
@@ -30,6 +31,7 @@ h5 {
 p {
   color: #fff;
   font-family: "Avantgarde", sans-serif;
+  font-size: 20px;
 }
 
 #main-nav {
@@ -75,13 +77,13 @@ p {
 
 #other-nav {
   height: 100px;
-  width: 100%;
   background-color: #000;
   overflow: hidden;
 }
  
-#other-nav #nav-cont {
-  float: right;
+#other-nav #nav {
+  float: left;
+  width: 100%;
   position: relative;
 }
 
@@ -90,30 +92,42 @@ p {
   margin: 0;
   padding: 0;
   position: relative;
-  left: 50%;
-  float: right;
-}
-
-#logo2 {
-  height: fit-content;
+  right: 10%;
   float: left;
 }
 
-#logo {
-  display: block;
-  width: 30%;
+#logo2-cont {
+  text-align: left;
+  height: 100%;
+}
+
+#logo2 {
+  height: 100%;
+  float: left;
+}
+
+#logo-cont {
   text-align: center;
+  width: 100%;
+}
+
+#logo {
+  width: 35%;
 }
 
 #about-me {
   float: right;
-  margin: 10px 0 10px 20px;
+  margin: 20px 20px 20px 20px;
   border: 3px solid #fff;
+  text-align: left;
+  vertical-align: middle;
 }
 
 #personalPhoto {
-  size: 50%;
+  width: 20%;
   float: left;
+  vertical-align: middle;
+  margin: 20px 20px 20px 20px;
 }
 
 ul li {
@@ -124,7 +138,7 @@ ul li {
   width: 75%;
   align-self: center;
   border-radius: 15px;
-  background-color: red;
+  background-color: purple;
 }
 
 #resume h1 {
