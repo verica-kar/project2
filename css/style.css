@@ -336,7 +336,7 @@ ul li {
   text-decoration: none;
 }
 
-#resume h2 {
+#resume h2, #projects h2 {
   font-size: 37px;
   font-family: "Avantgarde", sans-serif;
   text-align: left;
@@ -378,5 +378,16 @@ ul li {
 /*    RESUME    */
 
 /*    PROJECTS    */
+
+#connectFourSS {
+  width: 70%;
+}
+
+#github {
+  list-style-type: none;
+  padding-top: 40px;
+  text-align: center;
+  color: rgb(129, 127, 127);
+}
 
 /*    PROJECTS    */
