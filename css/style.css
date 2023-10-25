@@ -9,10 +9,10 @@ body {
 }
 
 /*    TEXT    */
-@font-face {
-  font-family: sweetGetaway;
-  src: url(/font/SweetGetawayDemoRegular-2XyK.ttf);
-}
+/*@font-face {
+  font-family: "myFont";
+  src: url('gold_lines/Gold_Lines_Trial.otf');
+}*/
 
 
 h1 {
@@ -78,10 +78,10 @@ ul li {
 }
 
 .cursive {
-  font-family: sweetGetaway;
+  /*font-family: "myFont";*/
   font-family: "Snell Roundhand", cursive;
   font-weight: lighter;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .it {
