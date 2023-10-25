@@ -10,8 +10,8 @@ body {
 
 /*    TEXT    */
 /*@font-face {
-  font-family: "myFont";
-  src: url('gold_lines/Gold_Lines_Trial.otf');
+  font-family: myFont;
+  src: url('https://fonts.cdnfonts.com/css/hey-vintage');
 }*/
 
 
@@ -78,8 +78,9 @@ ul li {
 }
 
 .cursive {
-  /*font-family: "myFont";*/
-  font-family: "Snell Roundhand", cursive;
+  font-family: 'Southernsky', sans-serif;
+  /*font-family: 'Hey Vintage', sans-serif;
+  font-family: "Snell Roundhand", cursive;*/
   font-weight: lighter;
   font-size: 3em;
 }
@@ -204,6 +205,7 @@ ul li {
 #pimgs {
   padding: 0;
   margin: 0;
+  margin-top: 4em;
   width: 100%;
   display: inline-block;
   vertical-align: middle;
@@ -215,17 +217,17 @@ ul li {
   vertical-align: middle;
 }
 
-#drawing-painting h2 {
+#dph2 { /* #drawing-painting h2 */
   width: 25%;
   float: left;
-  padding-right: 2em;
+  padding-right: 3em;
   border-right: 3px solid #fff;
 }
 
 #h2 {
   width: 25%;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
   border-left: 3px solid #fff;
   display: inline-block;
   vertical-align: middle;
