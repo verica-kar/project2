@@ -271,7 +271,7 @@ ul li {
 #resume, #projects {
   margin-left: 5%;
   margin-right: 5%;
-  border: 3px solid #fff;
+  border: 0.15em solid #fff;
 }
 
 #contact-info ul {
