@@ -58,6 +58,7 @@ h5 {
   font-size: 1.2em;
   font-weight: lighter;
   margin-left: 1em;
+  margin-top: 0.2em;
   font-family: "Avantgarde", sans-serif;
   color: rgb(129, 127, 127);
 }
@@ -316,6 +317,15 @@ ul li {
   margin-left: 2em;
   font-size: 1.5em;
   font-family: "Avantgarde", sans-serif;
+}
+
+.resume-ul {
+  list-style-type: none;
+}
+
+.resume-ul li {
+  padding: 0;
+  margin-bottom: 0.2em;
 }
 
 .inline {
