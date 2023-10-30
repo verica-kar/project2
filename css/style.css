@@ -131,8 +131,10 @@ ul li {
 }
 
 #main-nav ul li a:hover {
-  text-decoration: underline;
-  text-decoration-color: #fff;
+  /*text-decoration: underline;
+  text-decoration-color: #fff;*/
+  background-color: #fff;
+  color: #000;
 }
 
 /*    INDEX NAV    */
