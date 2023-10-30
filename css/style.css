@@ -132,8 +132,6 @@ ul li {
 }
 
 #main-nav ul li a:hover {
-  /*text-decoration: underline;
-  text-decoration-color: #fff;*/
   background-color: #fff;
   color: #000;
 }
@@ -157,7 +155,7 @@ ul li {
   display: flex;
   margin-left: 5%;
   margin-right: 5%;
-  border: 3px solid #fff;
+  border: 0.15em solid #fff;
 }
 
 #personalPhoto {
@@ -224,14 +222,14 @@ ul li {
   width: 25%;
   float: left;
   padding-right: 3em;
-  border-right: 3px solid #fff;
+  border-right: 0.15em solid #fff;
 }
 
 #h2 {
   width: 25%;
   padding-left: 3em;
   padding-right: 3em;
-  border-left: 3px solid #fff;
+  border-left: 0.15em solid #fff;
   display: inline-block;
   vertical-align: middle;
 }
